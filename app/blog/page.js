@@ -7,7 +7,7 @@ import SpotlightCard from "@/components/reactbits/SpotlightCard";
 import { posts } from "@/data/posts";
 
 export const metadata = {
-  title: "Journal | ShoeStopper",
+  title: "Journal",
   description:
     "Guides, care tips, and sneaker culture from the ShoeStopper team.",
 };

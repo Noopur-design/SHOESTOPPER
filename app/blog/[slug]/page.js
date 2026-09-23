@@ -10,8 +10,8 @@ export function generateStaticParams() {
 
 export function generateMetadata({ params }) {
   const post = getPost(params.slug);
-  if (!post) return { title: "Not found | ShoeStopper" };
-  return { title: `${post.title} | ShoeStopper`, description: post.excerpt };
+  if (!post) return { title: "Not found" };
+  return { title: post.title, description: post.excerpt };
 }
 
 function formatDate(d) {

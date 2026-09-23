@@ -7,7 +7,7 @@ import CountUp from "@/components/reactbits/CountUp";
 import SpotlightCard from "@/components/reactbits/SpotlightCard";
 
 export const metadata = {
-  title: "About | ShoeStopper",
+  title: "About",
   description:
     "The story behind ShoeStopper, obsessed with comfort, performance, and design since day one.",
 };

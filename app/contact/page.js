@@ -2,7 +2,7 @@ import Reveal from "@/components/Reveal";
 import ContactForm from "@/components/ContactForm";
 
 export const metadata = {
-  title: "Contact | ShoeStopper",
+  title: "Contact",
   description: "Get in touch with the ShoeStopper team. We're here to help.",
 };
 

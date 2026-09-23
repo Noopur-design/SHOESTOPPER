@@ -20,10 +20,16 @@ const fraunces = Fraunces({
 });
 
 export const metadata = {
-  title: "ShoeStopper | Step Into Something Legendary",
+  title: {
+    default: "ShoeStopper — Step Into Something Legendary",
+    template: "%s · ShoeStopper",
+  },
   description:
     "ShoeStopper is a premium sneaker and footwear store. Shop running, basketball, hiking, and street styles with fast, free shipping.",
   keywords: ["shoes", "sneakers", "running shoes", "basketball shoes", "ShoeStopper"],
+  icons: {
+    icon: "/icon.svg",
+  },
 };
 
 export default function RootLayout({ children }) {

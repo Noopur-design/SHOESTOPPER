@@ -5,7 +5,7 @@ import GradientText from "@/components/reactbits/GradientText";
 import SplitText from "@/components/reactbits/SplitText";
 
 export const metadata = {
-  title: "FAQ & Help | ShoeStopper",
+  title: "FAQ & Help",
   description:
     "Answers to common questions about shipping, returns, sizing, and orders.",
 };
